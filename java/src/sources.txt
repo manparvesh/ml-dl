@@ -1,0 +1,2 @@
+./main/java/Main.class
+./test/java/MainTest.class

@@ -4,6 +4,8 @@ import main.java.Main;
 
 class MainTest {
     public static void main(String[] args) {
-        Main.mp(10);
+        int n = 10;
+        int sq = Main.squareIt(10);
+        assert sq == 101;
     }
 }
