@@ -3,11 +3,14 @@
 # javac test/java/MainTest.java
 # java test.java.MainTest
 
+# removing previously compiled files
+rm -r */*/*.class
+
 # advanced:
 # find all java files and output the names to sources.txt
 find -name "*.java" > sources.txt
 
-# compile 'em all!
+# compile all!
 javac @sources.txt
 
 # get compiled files and now output to sources.txt
